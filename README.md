@@ -6,7 +6,7 @@ The specific use case may not be useful to anyone outside of a certain organizat
 
 # VSIX Usage
 
-After compilation, under `Builder/(Debug|Release)/bin/`, you will fine the Builder.VSIX.vsix file.
+After compilation, under `Builder/(Debug|Release)/bin/`, you will find the Builder.VSIX.vsix file.
 Execute this file to install the extension.
 
 After the extension is installed, you can right-click a C# file in Visual Studio, then click Invoke Builder, to create a new Builder class.
