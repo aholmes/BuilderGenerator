@@ -4,7 +4,14 @@ Generates a "builder" class based on the properties of a selected class.
 
 The specific use case may not be useful to anyone outside of a certain organization, but the code does demonstrate generating a complex class with Roslyn.
 
-# Usage
+# VSIX Usage
+
+After compilation, under `Builder/(Debug|Release)/bin/`, you will fine the Builder.VSIX.vsix file.
+Execute this file to install the extension.
+
+After the extension is installed, you can right-click a C# file in Visual Studio, then click Invoke Builder, to create a new Builder class.
+
+# Command-line Usage
 
 	Program.exe path\to\ClassFile.cs ClassName
 
