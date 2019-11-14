@@ -26,7 +26,7 @@ namespace BuilderCreator.CLI
 
                 if (!File.Exists(classPath))
                 {
-                    throw new Exception(string.Format("Cannot transform \"{0}\". Path does not exist."));
+                    throw new Exception(string.Format($"Cannot transform \"{classPath}\". Path does not exist."));
                 }
 
                 var fileText = File.ReadAllText(classPath);
